@@ -1,0 +1,143 @@
+.button {
+    position: relative;
+    background-color: #ffffff;
+    /* border: none; */
+    font-size: 28px;
+    color: #ff0000;
+    height: 50px;
+    /* padding: 5px; */
+    /* width: 80px; */
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #fc0000;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  .button1 {
+    position: relative;
+    background-color: #ffffff;
+    /* border: none; */
+    font-size: 28px;
+    color: #00ff00;
+    height: 50px;
+    /* padding: 5px; */
+    /* width: 80px; */
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button1:after {
+    content: "";
+    background: #00ff00;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button1:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  .homebutton{
+    text-align: center;
+    border: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background-color: #1eff00;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+  }
+
+  .homebutton:after {
+    content: "";
+    background: #00ff00;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  /* .homebutton:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  } */
+
+  .button3 {
+    position: relative;
+    background-color: #ffffff;
+    /* border: none; */
+    font-size: 28px;
+    color: #ff0000;
+    /* height: 15px; */
+    /* padding: 1px; */
+    /* width: 80px; */
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button3:after {
+    content: "";
+    background: #fc0000;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button3:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
